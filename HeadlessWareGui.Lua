@@ -366,13 +366,13 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
         
         Dropdown.Name = "Dropdown"
         Dropdown.Parent = FrameAlle
-        Dropdown.BackgroundColor3 = Color3.fromRGB(0, 13, 29)
+        Dropdown.BackgroundColor3 = Color3.fromRGB255(255, 192, 203)
         Dropdown.BackgroundTransparency = 1.000
         Dropdown.Size = UDim2.new(0, 432, 0, 32)
         Dropdown.AutomaticSize = Enum.AutomaticSize.Y
         DropdownFrame.Name = "DropdownFrame"
         DropdownFrame.Parent = Dropdown
-        DropdownFrame.BackgroundColor3 = Color3.fromRGB(255, 192, 203)
+        DropdownFrame.BackgroundColor3 = Color3.fromRGB(0, 13, 29)
         DropdownFrame.Position = UDim2.new(0.0717592612, 0, 0.15625, 0)
         DropdownFrame.Size = UDim2.new(0, 361, 0, 23)
         
