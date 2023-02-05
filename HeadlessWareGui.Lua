@@ -66,7 +66,7 @@ UICopied.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Background.Name = "Background"
 Background.Parent = UICopied
-Background.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Background.BackgroundColor3 = Color3.fromRGB(0, 13, 47)
 Background.Position = UDim2.new(0, 676, 0, 266)
 Background.Size = UDim2.new(0, 567, 0, 310)
 local toggledui = false
@@ -94,39 +94,39 @@ FrameAll.Parent = Background
 
 TabList.Name = "TabList"
 TabList.Parent = Background
-TabList.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+TabList.BackgroundColor3 = Color3.fromRGB(0, 13, 29)
 TabList.Size = UDim2.new(0, 128, 0, 310)
 
 UICorner_2.Parent = TabList
 
 Banner.Name = "Banner"
 Banner.Parent = TabList
-Banner.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Banner.BackgroundColor3 = Color3.fromRGB(0, 13, 29)
 Banner.BackgroundTransparency = 1.000
 Banner.Position = UDim2.new(0, 0, 0, 7)
 Banner.Size = UDim2.new(0, 128, 0, 56)
 
 Text.Name = "Text"
 Text.Parent = Banner
-Text.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Text.BackgroundColor3 = Color3.fromRGB(255, 192, 203)
 Text.BackgroundTransparency = 1.000
 Text.Position = UDim2.new(0, 39, 0, 0)
 Text.Size = UDim2.new(0, 78, 0, 26)
 Text.Font = Enum.Font.SourceSansBold
 Text.Text = txt
-Text.TextColor3 = Color3.fromRGB(181, 16, 68)
+Text.TextColor3 = Color3.fromRGB(255, 192, 203)
 Text.TextSize = 16.000
 Text.TextXAlignment = Enum.TextXAlignment.Left
 
 Desc.Name = "Desc"
 Desc.Parent = Banner
-Desc.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Desc.BackgroundColor3 = Color3.fromRGB(255, 192, 203)
 Desc.BackgroundTransparency = 1.000
 Desc.Position = UDim2.new(0, 39, 0, 19)
 Desc.Size = UDim2.new(0, 78, 0, 24)
 Desc.Font = Enum.Font.SourceSansBold
 Desc.Text = desc
-Desc.TextColor3 = Color3.fromRGB(132, 132, 132)
+Desc.TextColor3 = Color3.fromRGB(255, 192, 203)
 Desc.TextSize = 13.000
 Desc.TextWrapped = true
 Desc.TextXAlignment = Enum.TextXAlignment.Left
@@ -137,14 +137,14 @@ Imagelogo.BackgroundTransparency = 1.000
 Imagelogo.Position = UDim2.new(0, 8, 0, 9)
 Imagelogo.Size = UDim2.new(0, 25, 0, 25)
 Imagelogo.ZIndex = 2
-Imagelogo.Image = "rbxassetid://8324568288" --เปลี่ยนรูป Logo ตรงนี้
+Imagelogo.Image = "rbxassetid://10292846770" --เปลี่ยนรูป Logo ตรงนี้
 Imagelogo.ImageRectOffset = Vector2.new(50, 800)
 Imagelogo.ImageRectSize = Vector2.new(50, 50)
 
 Tabl.Name = "Tabl"
 Tabl.Parent = TabList
 Tabl.Active = true
-Tabl.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Tabl.BackgroundColor3 = Color3.fromRGB(0, 13, 29)
 Tabl.BackgroundTransparency = 1.000
 Tabl.Position = UDim2.new(0, 0, 0, 51)
 Tabl.Size = UDim2.new(0, 128, 0, 259)
@@ -173,13 +173,13 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
     
     TabButton.Name = "TabButton"
     TabButton.Parent = Tabl
-    TabButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    TabButton.BackgroundColor3 = Color3.fromRGB(0, 13, 29)
     TabButton.BackgroundTransparency = 1.000
     TabButton.Position = UDim2.new(0, 0, 0, 12)
     TabButton.Size = UDim2.new(0, 128, 0, 18)
     TabButton.Font = Enum.Font.SourceSansBold
     TabButton.Text = txt
-    TabButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+    TabButton.TextColor3 = Color3.fromRGB(255, 192, 203)
     TabButton.TextSize = 16.000
     TabButton.TextWrapped = true
     TabButton.TextXAlignment = Enum.TextXAlignment.Left
@@ -191,7 +191,7 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
     FrameAlle.Name = "FrameAlle"
     FrameAlle.Parent = FrameAll
     FrameAlle.Active = true
-    FrameAlle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    FrameAlle.BackgroundColor3 = Color3.fromRGB(0, 13, 29)
     FrameAlle.BackgroundTransparency = 1.000
     FrameAlle.Position = UDim2.new(0.225749552, 0, 0, 0)
     FrameAlle.Size = UDim2.new(0, 439, 0, 310)
@@ -229,13 +229,13 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
     local UICorner_4 = Instance.new("UICorner")
     Button.Name = "Button"
     Button.Parent = FrameAlle
-    Button.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    Button.BackgroundColor3 = Color3.fromRGB(0, 13, 29)
     Button.BackgroundTransparency = 1.000
     Button.Size = UDim2.new(0, 432, 0, 32)
     
     ButtonFrame.Name = "ButtonFrame"
     ButtonFrame.Parent = Button
-    ButtonFrame.BackgroundColor3 = Color3.fromRGB(153, 27, 69)
+    ButtonFrame.BackgroundColor3 = Color3.fromRGB(0, 13, 29)
     ButtonFrame.Position = UDim2.new(0, 81, 0, 6)
     ButtonFrame.Size = UDim2.new(0, 251, 0, 25)
     
@@ -244,11 +244,11 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
     
     Buttontap.Name = "Buttontap"
     Buttontap.Parent = ButtonFrame
-    Buttontap.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+    Buttontap.BackgroundColor3 = Color3.fromRGB(0, 13, 29)
     Buttontap.Position = UDim2.new(0, 2, 0, 1)
     Buttontap.Size = UDim2.new(0, 246, 0, 22)
     Buttontap.Font = Enum.Font.SourceSansBold
-    Buttontap.TextColor3 = Color3.fromRGB(156, 18, 62)
+    Buttontap.TextColor3 = Color3.fromRGB(255, 192, 203)
     Buttontap.TextSize = 15.000
     Buttontap.Text = txt
     
