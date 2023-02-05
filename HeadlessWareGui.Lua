@@ -173,13 +173,13 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
     
     TabButton.Name = "TabButton"
     TabButton.Parent = Tabl
-    TabButton.BackgroundColor3 = Color3.fromRGB(0, 13, 29)
+    TabButton.BackgroundColor3 = Color3.fromRGB(255, 192, 203)
     TabButton.BackgroundTransparency = 1.000
     TabButton.Position = UDim2.new(0, 0, 0, 12)
     TabButton.Size = UDim2.new(0, 128, 0, 18)
     TabButton.Font = Enum.Font.SourceSansBold
     TabButton.Text = txt
-    TabButton.TextColor3 = Color3.fromRGB(0, 13, 29)
+    TabButton.TextColor3 = Color3.fromRGB(255, 192, 203)
     TabButton.TextSize = 16.000
     TabButton.TextWrapped = true
     TabButton.TextXAlignment = Enum.TextXAlignment.Left
@@ -497,11 +497,11 @@ DropdownText.TextXAlignment = Enum.TextXAlignment.Left
         UICorner.Parent = TextBoxF
         
         TextBox_2.Parent = TextBoxF
-        TextBox_2.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+        TextBox_2.BackgroundColor3 = Color3.fromRGB(0, 13, 29)
         TextBox_2.Position = UDim2.new(0, 2, 0, 1)
         TextBox_2.Size = UDim2.new(0, 246, 0, 22)
         TextBox_2.Font = Enum.Font.SourceSansBold
-        TextBox_2.TextColor3 = Color3.fromRGB(116, 20, 51)
+        TextBox_2.TextColor3 = Color3.fromRGB(255, 192, 203)
         TextBox_2.TextSize = 14.000
         TextBox_2.Text = txt
         
@@ -642,7 +642,7 @@ UICorner_3.Parent = sliderz
 
 SliderInner.Name = "SliderInner"
 SliderInner.Parent = sliderz
-SliderInner.BackgroundColor3 = Color3.fromRGB(153, 27, 69)
+SliderInner.BackgroundColor3 = Color3.fromRGB(0, 13, 29)
 SliderInner.Position = UDim2.new(0, 0, -0.400000006, 0)
 SliderInner.Size = UDim2.new(0, 296, 0, 6)
 
