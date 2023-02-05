@@ -228,7 +228,7 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
     local UICorner_4 = Instance.new("UICorner")
     Button.Name = "Button"
     Button.Parent = FrameAlle
-    Button.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    Button.BackgroundColor3 = Color3.fromRGB(0, 13, 47)
     Button.BackgroundTransparency = 1.000
     Button.Size = UDim2.new(0, 432, 0, 32)
     
