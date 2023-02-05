@@ -101,7 +101,7 @@ UICorner_2.Parent = TabList
 Banner.Name = "Banner"
 Banner.Parent = TabList
 Banner.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Banner.BackgroundTransparency = 1
+Banner.BackgroundTransparency = 1.000
 Banner.Position = UDim2.new(0, 0, 0, 7)
 Banner.Size = UDim2.new(0, 128, 0, 56)
 
@@ -366,7 +366,7 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
         
         Dropdown.Name = "Dropdown"
         Dropdown.Parent = FrameAlle
-        Dropdown.BackgroundColor3 = Color3.fromRGB255(0, 13, 29)
+        Dropdown.BackgroundColor3 = Color3.fromRGB255(255, 192, 203)
         Dropdown.BackgroundTransparency = 1.000
         Dropdown.Size = UDim2.new(0, 432, 0, 32)
         Dropdown.AutomaticSize = Enum.AutomaticSize.Y
@@ -380,13 +380,13 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
         
         DropdownText.Name = "DropdownText"
         DropdownText.Parent = DropdownFrame
-        DropdownText.BackgroundColor3 = Color3.fromRGB(255, 192, 203)
+        DropdownText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
         DropdownText.BackgroundTransparency = 1.000
         DropdownText.Position = UDim2.new(0.0664819926, 0, 0, 0)
         DropdownText.Size = UDim2.new(0, 306, 0, 22)
         DropdownText.Font = Enum.Font.SourceSansBold
         DropdownText.Text = txte
-        DropdownText.TextColor3 = Color3.fromRGB(255, 192, 203)
+        DropdownText.TextColor3 = Color3.fromRGB(0, 13, 47)
         DropdownText.TextSize = 16.000
         DropdownText.TextXAlignment = Enum.TextXAlignment.Left
         
