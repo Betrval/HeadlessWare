@@ -100,7 +100,7 @@ UICorner_2.Parent = TabList
 
 Banner.Name = "Banner"
 Banner.Parent = TabList
-Banner.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Banner.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Banner.BackgroundTransparency = 1.000
 Banner.Position = UDim2.new(0, 0, 0, 7)
 Banner.Size = UDim2.new(0, 128, 0, 56)
@@ -136,7 +136,7 @@ Imagelogo.BackgroundTransparency = 1
 Imagelogo.Position = UDim2.new(0, 8, 0, 9)
 Imagelogo.Size = UDim2.new(0, 25, 0, 25)
 Imagelogo.ZIndex = 2
-Imagelogo.Image = "rbxassetid://10774209326" 
+Imagelogo.Image = "rbxassetid://396349519" 
 Imagelogo.ImageRectOffset = Vector2.new(50, 800)
 Imagelogo.ImageRectSize = Vector2.new(50, 50)
 
@@ -366,13 +366,13 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
         
         Dropdown.Name = "Dropdown"
         Dropdown.Parent = FrameAlle
-        Dropdown.BackgroundColor3 = Color3.fromRGB255(255, 192, 203)
+        Dropdown.BackgroundColor3 = Color3.fromRGB(0, 13, 29)
         Dropdown.BackgroundTransparency = 1.000
         Dropdown.Size = UDim2.new(0, 432, 0, 32)
         Dropdown.AutomaticSize = Enum.AutomaticSize.Y
         DropdownFrame.Name = "DropdownFrame"
         DropdownFrame.Parent = Dropdown
-        DropdownFrame.BackgroundColor3 = Color3.fromRGB(0, 13, 29)
+        DropdownFrame.BackgroundColor3 = Color3.fromRGB(255, 192, 203)
         DropdownFrame.Position = UDim2.new(0.0717592612, 0, 0.15625, 0)
         DropdownFrame.Size = UDim2.new(0, 361, 0, 23)
         
