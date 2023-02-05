@@ -65,7 +65,7 @@ UICopied.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Background.Name = "Background"
 Background.Parent = UICopied
-Background.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Background.BackgroundColor3 = Color3.fromRGB(0, 13, 47)
 Background.Position = UDim2.new(0, 676, 0, 266)
 Background.Size = UDim2.new(0, 567, 0, 310)
 local toggledui = false
@@ -93,7 +93,7 @@ FrameAll.Parent = Background
 
 TabList.Name = "TabList"
 TabList.Parent = Background
-TabList.BackgroundColor3 = Color3.fromRGB(0, 13, 47)
+TabList.BackgroundColor3 = Color3.fromRGB(0, 13, 29)
 TabList.Size = UDim2.new(0, 128, 0, 310)
 
 UICorner_2.Parent = TabList
