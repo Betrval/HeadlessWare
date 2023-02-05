@@ -136,7 +136,7 @@ Imagelogo.BackgroundTransparency = 1
 Imagelogo.Position = UDim2.new(0, 8, 0, 9)
 Imagelogo.Size = UDim2.new(0, 25, 0, 25)
 Imagelogo.ZIndex = 2
-Imagelogo.Image = "rbxassetid://8324568288" 
+Imagelogo.Image = "rbxassetid://396349519" 
 Imagelogo.ImageRectOffset = Vector2.new(50, 800)
 Imagelogo.ImageRectSize = Vector2.new(50, 50)
 
@@ -309,7 +309,7 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
         check.Position = UDim2.new(0, 1, 0, 1)
         check.Size = UDim2.new(0, 25, 0, 24)
         check.ZIndex = 2
-        check.Image = "rbxassetid://3926305904"
+        check.Image = "rbxassetid://v"
         check.ImageColor3 = Color3.fromRGB(0, 13, 31)
         check.ImageRectOffset = Vector2.new(312, 4)
         check.ImageRectSize = Vector2.new(24, 24)
@@ -372,7 +372,7 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
         Dropdown.AutomaticSize = Enum.AutomaticSize.Y
         DropdownFrame.Name = "DropdownFrame"
         DropdownFrame.Parent = Dropdown
-        DropdownFrame.BackgroundColor3 = Color3.fromRGB(0, 13, 59)
+        DropdownFrame.BackgroundColor3 = Color3.fromRGB(255, 192, 203)
         DropdownFrame.Position = UDim2.new(0.0717592612, 0, 0.15625, 0)
         DropdownFrame.Size = UDim2.new(0, 361, 0, 23)
         
