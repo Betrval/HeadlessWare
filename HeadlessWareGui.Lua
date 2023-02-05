@@ -100,7 +100,7 @@ UICorner_2.Parent = TabList
 
 Banner.Name = "Banner"
 Banner.Parent = TabList
-Banner.BackgroundColor3 = Color3.fromRGB(0, 0, 10)
+Banner.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Banner.BackgroundTransparency = 1
 Banner.Position = UDim2.new(0, 0, 0, 7)
 Banner.Size = UDim2.new(0, 128, 0, 56)
@@ -132,7 +132,7 @@ Desc.TextXAlignment = Enum.TextXAlignment.Left
 
 Imagelogo.Name = "Imagelogo"
 Imagelogo.Parent = Banner
-Imagelogo.BackgroundTransparency = 0
+Imagelogo.BackgroundTransparency = 1
 Imagelogo.Position = UDim2.new(0, 8, 0, 9)
 Imagelogo.Size = UDim2.new(0, 25, 0, 25)
 Imagelogo.ZIndex = 2
