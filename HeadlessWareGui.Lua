@@ -65,7 +65,7 @@ UICopied.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Background.Name = "Background"
 Background.Parent = UICopied
-Background.BackgroundColor3 = Color3.fromRGB(255, 192, 203)
+Background.BackgroundColor3 = Color3.fromRGB(0, 13, 31)
 Background.Position = UDim2.new(0, 676, 0, 266)
 Background.Size = UDim2.new(0, 567, 0, 310)
 local toggledui = false
@@ -143,7 +143,7 @@ Imagelogo.ImageRectSize = Vector2.new(50, 50)
 Tabl.Name = "Tabl"
 Tabl.Parent = TabList
 Tabl.Active = true
-Tabl.BackgroundColor3 = Color3.fromRGB(255, 192, 203)
+Tabl.BackgroundColor3 = Color3.fromRGB(0, 13, 31)
 Tabl.BackgroundTransparency = 1.000
 Tabl.Position = UDim2.new(0, 0, 0, 51)
 Tabl.Size = UDim2.new(0, 128, 0, 259)
@@ -234,7 +234,7 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
     
     ButtonFrame.Name = "ButtonFrame"
     ButtonFrame.Parent = Button
-    ButtonFrame.BackgroundColor3 = Color3.fromRGB(255, 192, 203)
+    ButtonFrame.BackgroundColor3 = Color3.fromRGB(0, 13, 59)
     ButtonFrame.Position = UDim2.new(0, 81, 0, 6)
     ButtonFrame.Size = UDim2.new(0, 251, 0, 25)
     
