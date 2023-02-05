@@ -119,7 +119,7 @@ Text.TextXAlignment = Enum.TextXAlignment.Left
 
 Desc.Name = "Desc"
 Desc.Parent = Banner
-Desc.BackgroundColor3 = Color3.fromRGB(255, 192, 203)
+Desc.BackgroundColor3 = Color3.fromRGB(0, 13, 49)
 Desc.BackgroundTransparency = 1.000
 Desc.Position = UDim2.new(0, 39, 0, 19)
 Desc.Size = UDim2.new(0, 78, 0, 24)
