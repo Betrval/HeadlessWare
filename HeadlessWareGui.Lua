@@ -1,4 +1,3 @@
---เปลี่ยน logo ได้ที่ บรรทัด 140
 if game.CoreGui:FindFirstChild("UICopied") then
     game.CoreGui:FindFirstChild("UICopied"):Destroy()
 end
@@ -66,7 +65,7 @@ UICopied.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Background.Name = "Background"
 Background.Parent = UICopied
-Background.BackgroundColor3 = Color3.fromRGB(0, 13, 47)
+Background.BackgroundColor3 = Color3.fromRGB(0, 0, 25)
 Background.Position = UDim2.new(0, 676, 0, 266)
 Background.Size = UDim2.new(0, 567, 0, 310)
 local toggledui = false
@@ -94,14 +93,14 @@ FrameAll.Parent = Background
 
 TabList.Name = "TabList"
 TabList.Parent = Background
-TabList.BackgroundColor3 = Color3.fromRGB(0, 13, 29)
+TabList.BackgroundColor3 = Color3.fromRGB(0, 13, 47)
 TabList.Size = UDim2.new(0, 128, 0, 310)
 
 UICorner_2.Parent = TabList
 
 Banner.Name = "Banner"
 Banner.Parent = TabList
-Banner.BackgroundColor3 = Color3.fromRGB(0, 13, 29)
+Banner.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Banner.BackgroundTransparency = 1.000
 Banner.Position = UDim2.new(0, 0, 0, 7)
 Banner.Size = UDim2.new(0, 128, 0, 56)
@@ -133,18 +132,18 @@ Desc.TextXAlignment = Enum.TextXAlignment.Left
 
 Imagelogo.Name = "Imagelogo"
 Imagelogo.Parent = Banner
-Imagelogo.BackgroundTransparency = 1.000
+Imagelogo.BackgroundTransparency = 1
 Imagelogo.Position = UDim2.new(0, 8, 0, 9)
 Imagelogo.Size = UDim2.new(0, 25, 0, 25)
 Imagelogo.ZIndex = 2
-Imagelogo.Image = "rbxassetid://10292846770" --เปลี่ยนรูป Logo ตรงนี้
+Imagelogo.Image = "rbxassetid://396349519" 
 Imagelogo.ImageRectOffset = Vector2.new(50, 800)
 Imagelogo.ImageRectSize = Vector2.new(50, 50)
 
 Tabl.Name = "Tabl"
 Tabl.Parent = TabList
 Tabl.Active = true
-Tabl.BackgroundColor3 = Color3.fromRGB(0, 13, 29)
+Tabl.BackgroundColor3 = Color3.fromRGB(0, 13, 47)
 Tabl.BackgroundTransparency = 1.000
 Tabl.Position = UDim2.new(0, 0, 0, 51)
 Tabl.Size = UDim2.new(0, 128, 0, 259)
@@ -173,7 +172,7 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
     
     TabButton.Name = "TabButton"
     TabButton.Parent = Tabl
-    TabButton.BackgroundColor3 = Color3.fromRGB(255, 192, 203)
+    TabButton.BackgroundColor3 = Color3.fromRGB(0, 13, 47)
     TabButton.BackgroundTransparency = 1.000
     TabButton.Position = UDim2.new(0, 0, 0, 12)
     TabButton.Size = UDim2.new(0, 128, 0, 18)
@@ -191,7 +190,7 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
     FrameAlle.Name = "FrameAlle"
     FrameAlle.Parent = FrameAll
     FrameAlle.Active = true
-    FrameAlle.BackgroundColor3 = Color3.fromRGB(0, 13, 29)
+    FrameAlle.BackgroundColor3 = Color3.fromRGB(0, 0, 30)
     FrameAlle.BackgroundTransparency = 1.000
     FrameAlle.Position = UDim2.new(0.225749552, 0, 0, 0)
     FrameAlle.Size = UDim2.new(0, 439, 0, 310)
@@ -229,13 +228,13 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
     local UICorner_4 = Instance.new("UICorner")
     Button.Name = "Button"
     Button.Parent = FrameAlle
-    Button.BackgroundColor3 = Color3.fromRGB(0, 13, 29)
+    Button.BackgroundColor3 = Color3.fromRGB(0, 13, 47)
     Button.BackgroundTransparency = 1.000
     Button.Size = UDim2.new(0, 432, 0, 32)
     
     ButtonFrame.Name = "ButtonFrame"
     ButtonFrame.Parent = Button
-    ButtonFrame.BackgroundColor3 = Color3.fromRGB(0, 13, 29)
+    ButtonFrame.BackgroundColor3 = Color3.fromRGB(0, 13, 47)
     ButtonFrame.Position = UDim2.new(0, 81, 0, 6)
     ButtonFrame.Size = UDim2.new(0, 251, 0, 25)
     
@@ -244,7 +243,7 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
     
     Buttontap.Name = "Buttontap"
     Buttontap.Parent = ButtonFrame
-    Buttontap.BackgroundColor3 = Color3.fromRGB(0, 13, 29)
+    Buttontap.BackgroundColor3 = Color3.fromRGB(0, 13, 47)
     Buttontap.Position = UDim2.new(0, 2, 0, 1)
     Buttontap.Size = UDim2.new(0, 246, 0, 22)
     Buttontap.Font = Enum.Font.SourceSansBold
@@ -265,14 +264,14 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
     local LabelText = Instance.new("TextLabel")
     Label.Name = txt
     Label.Parent = FrameAlle
-    Label.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    Label.BackgroundColor3 = Color3.fromRGB(255, 192, 203)
     Label.BackgroundTransparency = 1.000
     Label.Position = UDim2.new(0, 0, 0.13333334, 0)
     Label.Size = UDim2.new(0, 432, 0, 26)
     
     LabelText.Name = "LabelText"
     LabelText.Parent = Label
-    LabelText.BackgroundColor3 = Color3.fromRGB(0, 13, 29)
+    LabelText.BackgroundColor3 = Color3.fromRGB(0, 13, 47)
     LabelText.BackgroundTransparency = 1.000
     LabelText.Position = UDim2.new(0.194444448, 0, 0.15625, 0)
     LabelText.Size = UDim2.new(0, 247, 0, 26)
@@ -297,7 +296,7 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
         
         ToggleFrame.Name = "ToggleFrame"
         ToggleFrame.Parent = Toggle
-        ToggleFrame.BackgroundColor3 = Color3.fromRGB(0, 13, 29)
+        ToggleFrame.BackgroundColor3 = Color3.fromRGB(0, 13, 59)
         ToggleFrame.Position = UDim2.new(0, 46, 0, 2)
         ToggleFrame.Size = UDim2.new(0, 27, 0, 26)
         
@@ -305,13 +304,13 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
         
         check.Name = "check"
         check.Parent = ToggleFrame
-        check.BackgroundColor3 = Color3.fromRGB(0, 13, 29)
+        check.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
         check.LayoutOrder = 1
         check.Position = UDim2.new(0, 1, 0, 1)
         check.Size = UDim2.new(0, 25, 0, 24)
         check.ZIndex = 2
-        check.Image = "rbxassetid://3926305904"
-        check.ImageColor3 = Color3.fromRGB(120, 20, 52)
+        check.Image = "rbxassetid://v"
+        check.ImageColor3 = Color3.fromRGB(0, 13, 31)
         check.ImageRectOffset = Vector2.new(312, 4)
         check.ImageRectSize = Vector2.new(24, 24)
         check.ImageTransparency = 1
@@ -321,13 +320,13 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
         
         ToggleText.Name = "ToggleText"
         ToggleText.Parent = ToggleFrame
-        ToggleText.BackgroundColor3 = Color3.fromRGB(0, 13, 29)
+        ToggleText.BackgroundColor3 = Color3.fromRGB(255, 192, 203)
         ToggleText.BackgroundTransparency = 1.000
         ToggleText.Position = UDim2.new(1.33333337, 0, 0, 0)
         ToggleText.Size = UDim2.new(0, 344, 0, 26)
         ToggleText.Font = Enum.Font.SourceSansBold
         ToggleText.Text = txt
-        ToggleText.TextColor3 = Color3.fromRGB(255, 192, 203)
+        ToggleText.TextColor3 = Color3.fromRGB(255, 255, 255)
         ToggleText.TextSize = 16.000
         ToggleText.TextXAlignment = Enum.TextXAlignment.Left
         check.MouseButton1Click:Connect(function()
@@ -354,7 +353,7 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
         
         LineE.Name = "LineE"
         LineE.Parent = Line
-        LineE.BackgroundColor3 = Color3.fromRGB(153, 27, 69)
+        LineE.BackgroundColor3 = Color3.fromRGB(255, 192, 203)
         LineE.Position = UDim2.new(0.0370370373, 0, 0.375, 0)
         LineE.Size = UDim2.new(0, 408, 0, 3)
     end
@@ -365,33 +364,32 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
         local DropdownText = Instance.new("TextLabel")
         local click = Instance.new("ImageButton")
         
-Dropdown.Name = "Dropdown"
-Dropdown.Parent = FrameAlle
-Dropdown.BackgroundColor3 = Color3.fromRGB(0, 13, 29)
-Dropdown.BackgroundTransparency = 1.000
-Dropdown.Size = UDim2.new(0, 432, 0, 32)
-Dropdown.AutomaticSize = Enum.AutomaticSize.Y
-
-DropdownFrame.Name = "DropdownFrame"
-DropdownFrame.Parent = Dropdown
-DropdownFrame.BackgroundColor3 = Color3.fromRGB(0, 13, 29)
-DropdownFrame.Position = UDim2.new(0.0717592612, 0, 0.15625, 0)
-DropdownFrame.Size = UDim2.new(0, 361, 0, 23)
-
-UICorner.Parent = DropdownFrame
-
-DropdownText.Name = "DropdownText"
-DropdownText.Parent = DropdownFrame
-DropdownText.BackgroundColor3 = Color3.fromRGB(0, 13, 29)
-DropdownText.BackgroundTransparency = 1.000
-DropdownText.Position = UDim2.new(0.0664819926, 0, 0, 0)
-DropdownText.Size = UDim2.new(0, 306, 0, 22)
-DropdownText.Font = Enum.Font.SourceSansBold
-DropdownText.Text = txte
-DropdownText.TextColor3 = Color3.fromRGB(255, 192, 203)
-DropdownText.TextSize = 16.000
-DropdownText.TextXAlignment = Enum.TextXAlignment.Left
-			
+        Dropdown.Name = "Dropdown"
+        Dropdown.Parent = FrameAlle
+        Dropdown.BackgroundColor3 = Color3.fromRGB255(255, 192, 203)
+        Dropdown.BackgroundTransparency = 1.000
+        Dropdown.Size = UDim2.new(0, 432, 0, 32)
+        Dropdown.AutomaticSize = Enum.AutomaticSize.Y
+        DropdownFrame.Name = "DropdownFrame"
+        DropdownFrame.Parent = Dropdown
+        DropdownFrame.BackgroundColor3 = Color3.fromRGB(0, 13, 29)
+        DropdownFrame.Position = UDim2.new(0.0717592612, 0, 0.15625, 0)
+        DropdownFrame.Size = UDim2.new(0, 361, 0, 23)
+        
+        UICorner.Parent = DropdownFrame
+        
+        DropdownText.Name = "DropdownText"
+        DropdownText.Parent = DropdownFrame
+        DropdownText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        DropdownText.BackgroundTransparency = 1.000
+        DropdownText.Position = UDim2.new(0.0664819926, 0, 0, 0)
+        DropdownText.Size = UDim2.new(0, 306, 0, 22)
+        DropdownText.Font = Enum.Font.SourceSansBold
+        DropdownText.Text = txte
+        DropdownText.TextColor3 = Color3.fromRGB(0, 13, 47)
+        DropdownText.TextSize = 16.000
+        DropdownText.TextXAlignment = Enum.TextXAlignment.Left
+        
         click.Name = "click"
         click.Parent = DropdownFrame
         click.BackgroundTransparency = 1.000
@@ -412,7 +410,7 @@ DropdownText.TextXAlignment = Enum.TextXAlignment.Left
 
         DropdownList.Name = "DropdownList"
         DropdownList.Parent = FrameAlle
-        DropdownList.BackgroundColor3 = Color3.fromRGB(0, 13, 47)
+        DropdownList.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
         DropdownList.BackgroundTransparency = 1.000
         DropdownList.Position = UDim2.new(0, 0, 0, 182)
         DropdownList.Size = UDim2.new(0, 433, 0, 35)
@@ -449,7 +447,7 @@ DropdownText.TextXAlignment = Enum.TextXAlignment.Left
                  local UICorner_2 = Instance.new("UICorner")
         TabButton.Name = "TabButton"
         TabButton.Parent = DropdownList
-        TabButton.BackgroundColor3 = Color3.fromRGB(186, 32, 84)
+        TabButton.BackgroundColor3 = Color3.fromRGB(0, 13, 59)
         TabButton.Position = UDim2.new(0.0920096859, 0, 0, 0)
         TabButton.Size = UDim2.new(0, 343, 0, 24)
         TabButton.Font = Enum.Font.SourceSansBold
@@ -483,13 +481,13 @@ DropdownText.TextXAlignment = Enum.TextXAlignment.Left
         
         TextBox.Name = "TextBox"
         TextBox.Parent = FrameAlle
-        TextBox.BackgroundColor3 = Color3.fromRGB(0, 13, 29)
+        TextBox.BackgroundColor3 = Color3.fromRGB(0, 13, 59)
         TextBox.BackgroundTransparency = 1.000
         TextBox.Size = UDim2.new(0, 432, 0, 32)
         
         TextBoxF.Name = "TextBoxF"
         TextBoxF.Parent = TextBox
-        TextBoxF.BackgroundColor3 = Color3.fromRGB(0, 13, 29)
+        TextBoxF.BackgroundColor3 = Color3.fromRGB(0, 13, 59)
         TextBoxF.Position = UDim2.new(0, 81, 0, 6)
         TextBoxF.Size = UDim2.new(0, 251, 0, 25)
         
@@ -497,11 +495,11 @@ DropdownText.TextXAlignment = Enum.TextXAlignment.Left
         UICorner.Parent = TextBoxF
         
         TextBox_2.Parent = TextBoxF
-        TextBox_2.BackgroundColor3 = Color3.fromRGB(0, 13, 29)
+        TextBox_2.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
         TextBox_2.Position = UDim2.new(0, 2, 0, 1)
         TextBox_2.Size = UDim2.new(0, 246, 0, 22)
         TextBox_2.Font = Enum.Font.SourceSansBold
-        TextBox_2.TextColor3 = Color3.fromRGB(255, 192, 203)
+        TextBox_2.TextColor3 = Color3.fromRGB(255, 255, 255)
         TextBox_2.TextSize = 14.000
         TextBox_2.Text = txt
         
@@ -550,14 +548,14 @@ local UICorner_4 = Instance.new("UICorner")
 
 Slider.Name = "Slider"
 Slider.Parent = FrameAlle
-Slider.BackgroundColor3 = Color3.fromRGB(0, 13, 29)
+Slider.BackgroundColor3 = Color3.fromRGB(255, 192, 203)
 Slider.BackgroundTransparency = 1.000
 Slider.Position = UDim2.new(0, 0, 0.696666658, 0)
 Slider.Size = UDim2.new(0, 432, 0, 37)
 
 TextSlider.Name = "TextSlider"
 TextSlider.Parent = Slider
-TextSlider.BackgroundColor3 = Color3.fromRGB(0, 13, 29)
+TextSlider.BackgroundColor3 = Color3.fromRGB(0, 13, 59)
 TextSlider.BackgroundTransparency = 1.000
 TextSlider.Position = UDim2.new(0.0578703694, 0, 0.0625, 0)
 TextSlider.Size = UDim2.new(0, 223, 0, 14)
@@ -569,7 +567,7 @@ TextSlider.TextXAlignment = Enum.TextXAlignment.Left
 
 BoxFrmae.Name = "BoxFrmae"
 BoxFrmae.Parent = Slider
-BoxFrmae.BackgroundColor3 = Color3.fromRGB(0, 13, 29)
+BoxFrmae.BackgroundColor3 = Color3.fromRGB(0, 13, 31)
 BoxFrmae.Position = UDim2.new(0, 28, 0, 22)
 BoxFrmae.Size = UDim2.new(0, 22, 0, 12)
 
@@ -578,12 +576,12 @@ UICorner.Parent = BoxFrmae
 
 SliderBox.Name = "SliderBox"
 SliderBox.Parent = BoxFrmae
-SliderBox.BackgroundColor3 = Color3.fromRGB(0, 13, 29)
+SliderBox.BackgroundColor3 = Color3.fromRGB(0, 13, 31)
 SliderBox.Position = UDim2.new(0, 1, 0, 1)
 SliderBox.Size = UDim2.new(0, 19, 0, 10)
 SliderBox.Font = Enum.Font.SourceSansBold
 SliderBox.Text = ""
-SliderBox.TextColor3 = Color3.fromRGB(255, 192, 203)
+SliderBox.TextColor3 = Color3.fromRGB(247, 113, 255)
 SliderBox.TextScaled = true
 SliderBox.TextSize = 14.000
 SliderBox.TextWrapped = true
@@ -598,8 +596,8 @@ rotation.LayoutOrder = 3
 rotation.Position = UDim2.new(0.129629627, 0, 0.581081092, 0)
 rotation.Size = UDim2.new(0, 12, 0, 12)
 rotation.ZIndex = 2
-rotation.Image = "rbxassetid://3926305904"
-rotation.ImageColor3 = Color3.fromRGB(181, 32, 81)
+rotation.Image = "rbxassetid://396349519"
+rotation.ImageColor3 = Color3.fromRGB(247, 113, 255)
 rotation.ImageRectOffset = Vector2.new(244, 684)
 rotation.ImageRectSize = Vector2.new(36, 36)
 
@@ -610,8 +608,8 @@ remove.LayoutOrder = 4
 remove.Position = UDim2.new(0.164351851, 0, 0.5, 0)
 remove.Size = UDim2.new(0, 15, 0, 17)
 remove.ZIndex = 2
-remove.Image = "rbxassetid://3926307971"
-remove.ImageColor3 = Color3.fromRGB(255, 192, 203)
+remove.Image = "rbxassetid://396349519"
+remove.ImageColor3 = Color3.fromRGB(0, 13, 59)
 remove.ImageRectOffset = Vector2.new(884, 284)
 remove.ImageRectSize = Vector2.new(36, 36)
 
@@ -622,14 +620,14 @@ add.LayoutOrder = 4
 add.Position = UDim2.new(0.206018522, 0, 0.472972959, 0)
 add.Size = UDim2.new(0, 19, 0, 19)
 add.ZIndex = 2
-add.Image = "rbxassetid://3926307971"
-add.ImageColor3 = Color3.fromRGB(255, 192, 203)
+add.Image = "rbxassetid://396349519"
+add.ImageColor3 = Color3.fromRGB(0, 13, 59)
 add.ImageRectOffset = Vector2.new(324, 364)
 add.ImageRectSize = Vector2.new(36, 36)
 
 sliderz.Name = "sliderz"
 sliderz.Parent = Slider
-sliderz.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+sliderz.BackgroundColor3 = Color3.fromRGB(0, 13, 59)
 sliderz.BackgroundTransparency = 1.000
 sliderz.Position = UDim2.new(0.268518507, 0, 0.702702701, 0)
 sliderz.Size = UDim2.new(0, 296, 0, 6)
@@ -642,7 +640,7 @@ UICorner_3.Parent = sliderz
 
 SliderInner.Name = "SliderInner"
 SliderInner.Parent = sliderz
-SliderInner.BackgroundColor3 = Color3.fromRGB(0, 13, 29)
+SliderInner.BackgroundColor3 = Color3.fromRGB(247, 113, 255)
 SliderInner.Position = UDim2.new(0, 0, -0.400000006, 0)
 SliderInner.Size = UDim2.new(0, 296, 0, 6)
 
