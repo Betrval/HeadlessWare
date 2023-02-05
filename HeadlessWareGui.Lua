@@ -228,7 +228,7 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
     local UICorner_4 = Instance.new("UICorner")
     Button.Name = "Button"
     Button.Parent = FrameAlle
-    Button.BackgroundColor3 = Color3.fromRGB(36, 5, 1)
+    Button.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     Button.BackgroundTransparency = 1.000
     Button.Size = UDim2.new(0, 432, 0, 32)
     
@@ -247,7 +247,7 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
     Buttontap.Position = UDim2.new(0, 2, 0, 1)
     Buttontap.Size = UDim2.new(0, 246, 0, 22)
     Buttontap.Font = Enum.Font.SourceSansBold
-    Buttontap.TextColor3 = Color3.fromRGB(255, 192, 203)
+    Buttontap.TextColor3 = Color3.fromRGB(255, 255, 255)
     Buttontap.TextSize = 15.000
     Buttontap.Text = txt
     
@@ -276,7 +276,7 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
     LabelText.Position = UDim2.new(0.194444448, 0, 0.15625, 0)
     LabelText.Size = UDim2.new(0, 247, 0, 26)
     LabelText.Font = Enum.Font.SourceSansBold
-    LabelText.TextColor3 = Color3.fromRGB(247, 113, 255)
+    LabelText.TextColor3 = Color3.fromRGB(255, 255, 255)
     LabelText.TextSize = 15.000
     end
     
@@ -326,7 +326,7 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
         ToggleText.Size = UDim2.new(0, 344, 0, 26)
         ToggleText.Font = Enum.Font.SourceSansBold
         ToggleText.Text = txt
-        ToggleText.TextColor3 = Color3.fromRGB(153, 27, 69)
+        ToggleText.TextColor3 = Color3.fromRGB(255, 255, 255)
         ToggleText.TextSize = 16.000
         ToggleText.TextXAlignment = Enum.TextXAlignment.Left
         check.MouseButton1Click:Connect(function()
@@ -499,7 +499,7 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
         TextBox_2.Position = UDim2.new(0, 2, 0, 1)
         TextBox_2.Size = UDim2.new(0, 246, 0, 22)
         TextBox_2.Font = Enum.Font.SourceSansBold
-        TextBox_2.TextColor3 = Color3.fromRGB(247, 113, 255)
+        TextBox_2.TextColor3 = Color3.fromRGB(255, 255, 255)
         TextBox_2.TextSize = 14.000
         TextBox_2.Text = txt
         
