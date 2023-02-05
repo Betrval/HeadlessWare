@@ -125,7 +125,7 @@ Desc.Position = UDim2.new(0, 39, 0, 19)
 Desc.Size = UDim2.new(0, 78, 0, 24)
 Desc.Font = Enum.Font.SourceSansBold
 Desc.Text = desc
-Desc.TextColor3 = Color3.fromRGB(132, 132, 132)
+Desc.TextColor3 = Color3.fromRGB(255, 192, 203)
 Desc.TextSize = 13.000
 Desc.TextWrapped = true
 Desc.TextXAlignment = Enum.TextXAlignment.Left
@@ -264,14 +264,14 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
     local LabelText = Instance.new("TextLabel")
     Label.Name = txt
     Label.Parent = FrameAlle
-    Label.BackgroundColor3 = Color3.fromRGB(0, 0, 30)
+    Label.BackgroundColor3 = Color3.fromRGB(255, 192, 203)
     Label.BackgroundTransparency = 1.000
     Label.Position = UDim2.new(0, 0, 0.13333334, 0)
     Label.Size = UDim2.new(0, 432, 0, 26)
     
     LabelText.Name = "LabelText"
     LabelText.Parent = Label
-    LabelText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    LabelText.BackgroundColor3 = Color3.fromRGB(255, 192, 203)
     LabelText.BackgroundTransparency = 1.000
     LabelText.Position = UDim2.new(0.194444448, 0, 0.15625, 0)
     LabelText.Size = UDim2.new(0, 247, 0, 26)
@@ -290,13 +290,13 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
         
         Toggle.Name = "Toggle"
         Toggle.Parent = FrameAlle
-        Toggle.BackgroundColor3 = Color3.fromRGB(0, 13, 31)
+        Toggle.BackgroundColor3 = Color3.fromRGB(255, 192, 203)
         Toggle.BackgroundTransparency = 1.000
         Toggle.Size = UDim2.new(0, 432, 0, 32)
         
         ToggleFrame.Name = "ToggleFrame"
         ToggleFrame.Parent = Toggle
-        ToggleFrame.BackgroundColor3 = Color3.fromRGB(0, 13, 31)
+        ToggleFrame.BackgroundColor3 = Color3.fromRGB(255, 192, 203)
         ToggleFrame.Position = UDim2.new(0, 46, 0, 2)
         ToggleFrame.Size = UDim2.new(0, 27, 0, 26)
         
@@ -320,7 +320,7 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
         
         ToggleText.Name = "ToggleText"
         ToggleText.Parent = ToggleFrame
-        ToggleText.BackgroundColor3 = Color3.fromRGB(0, 13, 31)
+        ToggleText.BackgroundColor3 = Color3.fromRGB(255, 192, 203)
         ToggleText.BackgroundTransparency = 1.000
         ToggleText.Position = UDim2.new(1.33333337, 0, 0, 0)
         ToggleText.Size = UDim2.new(0, 344, 0, 26)
@@ -353,7 +353,7 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
         
         LineE.Name = "LineE"
         LineE.Parent = Line
-        LineE.BackgroundColor3 = Color3.fromRGB(247, 113, 255)
+        LineE.BackgroundColor3 = Color3.fromRGB(255, 192, 203)
         LineE.Position = UDim2.new(0.0370370373, 0, 0.375, 0)
         LineE.Size = UDim2.new(0, 408, 0, 3)
     end
@@ -481,13 +481,13 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
         
         TextBox.Name = "TextBox"
         TextBox.Parent = FrameAlle
-        TextBox.BackgroundColor3 = Color3.fromRGB(247, 113, 255)
+        TextBox.BackgroundColor3 = Color3.fromRGB(255, 192, 203)
         TextBox.BackgroundTransparency = 1.000
         TextBox.Size = UDim2.new(0, 432, 0, 32)
         
         TextBoxF.Name = "TextBoxF"
         TextBoxF.Parent = TextBox
-        TextBoxF.BackgroundColor3 = Color3.fromRGB(247, 113, 255)
+        TextBoxF.BackgroundColor3 = Color3.fromRGB(255, 192, 203)
         TextBoxF.Position = UDim2.new(0, 81, 0, 6)
         TextBoxF.Size = UDim2.new(0, 251, 0, 25)
         
@@ -548,14 +548,14 @@ local UICorner_4 = Instance.new("UICorner")
 
 Slider.Name = "Slider"
 Slider.Parent = FrameAlle
-Slider.BackgroundColor3 = Color3.fromRGB(255,192,203)
+Slider.BackgroundColor3 = Color3.fromRGB(255, 192, 203)
 Slider.BackgroundTransparency = 1.000
 Slider.Position = UDim2.new(0, 0, 0.696666658, 0)
 Slider.Size = UDim2.new(0, 432, 0, 37)
 
 TextSlider.Name = "TextSlider"
 TextSlider.Parent = Slider
-TextSlider.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextSlider.BackgroundColor3 = Color3.fromRGB(255, 192, 203)
 TextSlider.BackgroundTransparency = 1.000
 TextSlider.Position = UDim2.new(0.0578703694, 0, 0.0625, 0)
 TextSlider.Size = UDim2.new(0, 223, 0, 14)
