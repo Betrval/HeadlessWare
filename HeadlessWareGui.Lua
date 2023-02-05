@@ -388,7 +388,7 @@ DropdownText.Position = UDim2.new(0.0664819926, 0, 0, 0)
 DropdownText.Size = UDim2.new(0, 306, 0, 22)
 DropdownText.Font = Enum.Font.SourceSansBold
 DropdownText.Text = txte
-DropdownText.TextColor3 = Color3.fromRGB(255, 255, 255)
+DropdownText.TextColor3 = Color3.fromRGB(255, 192, 203)
 DropdownText.TextSize = 16.000
 DropdownText.TextXAlignment = Enum.TextXAlignment.Left
 			
