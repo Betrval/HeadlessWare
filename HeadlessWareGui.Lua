@@ -100,7 +100,7 @@ UICorner_2.Parent = TabList
 
 Banner.Name = "Banner"
 Banner.Parent = TabList
-Banner.BackgroundColor3 = Color3.fromRGB(247, 113, 255)
+Banner.BackgroundColor3 = Color3.fromRGB(0, 13, 31)
 Banner.BackgroundTransparency = 1.000
 Banner.Position = UDim2.new(0, 0, 0, 7)
 Banner.Size = UDim2.new(0, 128, 0, 56)
@@ -243,7 +243,7 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
     
     Buttontap.Name = "Buttontap"
     Buttontap.Parent = ButtonFrame
-    Buttontap.BackgroundColor3 = Color3.fromRGB(36, 5, 1)
+    Buttontap.BackgroundColor3 = Color3.fromRGB(0, 13, 31)
     Buttontap.Position = UDim2.new(0, 2, 0, 1)
     Buttontap.Size = UDim2.new(0, 246, 0, 22)
     Buttontap.Font = Enum.Font.SourceSansBold
@@ -264,7 +264,7 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
     local LabelText = Instance.new("TextLabel")
     Label.Name = txt
     Label.Parent = FrameAlle
-    Label.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+    Label.BackgroundColor3 = Color3.fromRGB(0, 13, 31)
     Label.BackgroundTransparency = 1.000
     Label.Position = UDim2.new(0, 0, 0.13333334, 0)
     Label.Size = UDim2.new(0, 432, 0, 26)
