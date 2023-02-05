@@ -93,7 +93,7 @@ FrameAll.Parent = Background
 
 TabList.Name = "TabList"
 TabList.Parent = Background
-TabList.BackgroundColor3 = Color3.fromRGB(36, 5, 1)
+TabList.BackgroundColor3 = Color3.fromRGB(0, 13, 31)
 TabList.Size = UDim2.new(0, 128, 0, 310)
 
 UICorner_2.Parent = TabList
@@ -172,7 +172,7 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
     
     TabButton.Name = "TabButton"
     TabButton.Parent = Tabl
-    TabButton.BackgroundColor3 = Color3.fromRGB(36, 5, 1)
+    TabButton.BackgroundColor3 = Color3.fromRGB(0, 13, 31)
     TabButton.BackgroundTransparency = 1.000
     TabButton.Position = UDim2.new(0, 0, 0, 12)
     TabButton.Size = UDim2.new(0, 128, 0, 18)
@@ -190,7 +190,7 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
     FrameAlle.Name = "FrameAlle"
     FrameAlle.Parent = FrameAll
     FrameAlle.Active = true
-    FrameAlle.BackgroundColor3 = Color3.fromRGB(36, 5, 1)
+    FrameAlle.BackgroundColor3 = Color3.fromRGB(0, 13, 31)
     FrameAlle.BackgroundTransparency = 1.000
     FrameAlle.Position = UDim2.new(0.225749552, 0, 0, 0)
     FrameAlle.Size = UDim2.new(0, 439, 0, 310)
