@@ -93,7 +93,7 @@ FrameAll.Parent = Background
 
 TabList.Name = "TabList"
 TabList.Parent = Background
-TabList.BackgroundColor3 = Color3.fromRGB(0, 13, 47)
+TabList.BackgroundColor3 = Color3.fromRGB(255, 192, 203)
 TabList.Size = UDim2.new(0, 128, 0, 310)
 
 UICorner_2.Parent = TabList
