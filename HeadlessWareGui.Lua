@@ -93,7 +93,7 @@ FrameAll.Parent = Background
 
 TabList.Name = "TabList"
 TabList.Parent = Background
-TabList.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TabList.BackgroundColor3 = Color3.fromRGB(36, 5, 1)
 TabList.Size = UDim2.new(0, 128, 0, 310)
 
 UICorner_2.Parent = TabList
@@ -107,7 +107,7 @@ Banner.Size = UDim2.new(0, 128, 0, 56)
 
 Text.Name = "Text"
 Text.Parent = Banner
-Text.BackgroundColor3 = Color3.fromRGB(247, 113, 255)
+Text.BackgroundColor3 = Color3.fromRGB(36, 5, 1)
 Text.BackgroundTransparency = 1.000
 Text.Position = UDim2.new(0, 39, 0, 0)
 Text.Size = UDim2.new(0, 78, 0, 26)
@@ -172,7 +172,7 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
     
     TabButton.Name = "TabButton"
     TabButton.Parent = Tabl
-    TabButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    TabButton.BackgroundColor3 = Color3.fromRGB(36, 5, 1)
     TabButton.BackgroundTransparency = 1.000
     TabButton.Position = UDim2.new(0, 0, 0, 12)
     TabButton.Size = UDim2.new(0, 128, 0, 18)
@@ -190,7 +190,7 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
     FrameAlle.Name = "FrameAlle"
     FrameAlle.Parent = FrameAll
     FrameAlle.Active = true
-    FrameAlle.BackgroundColor3 = Color3.fromRGB(247, 113, 255)
+    FrameAlle.BackgroundColor3 = Color3.fromRGB(36, 5, 1)
     FrameAlle.BackgroundTransparency = 1.000
     FrameAlle.Position = UDim2.new(0.225749552, 0, 0, 0)
     FrameAlle.Size = UDim2.new(0, 439, 0, 310)
@@ -228,7 +228,7 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
     local UICorner_4 = Instance.new("UICorner")
     Button.Name = "Button"
     Button.Parent = FrameAlle
-    Button.BackgroundColor3 = Color3.fromRGB(247, 113, 255)
+    Button.BackgroundColor3 = Color3.fromRGB(36, 5, 1)
     Button.BackgroundTransparency = 1.000
     Button.Size = UDim2.new(0, 432, 0, 32)
     
@@ -243,7 +243,7 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
     
     Buttontap.Name = "Buttontap"
     Buttontap.Parent = ButtonFrame
-    Buttontap.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+    Buttontap.BackgroundColor3 = Color3.fromRGB(36, 5, 1)
     Buttontap.Position = UDim2.new(0, 2, 0, 1)
     Buttontap.Size = UDim2.new(0, 246, 0, 22)
     Buttontap.Font = Enum.Font.SourceSansBold
