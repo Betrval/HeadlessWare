@@ -305,7 +305,7 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
         
         check.Name = "check"
         check.Parent = ToggleFrame
-        check.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+        check.BackgroundColor3 = Color3.fromRGB(0, 13, 29)
         check.LayoutOrder = 1
         check.Position = UDim2.new(0, 1, 0, 1)
         check.Size = UDim2.new(0, 25, 0, 24)
@@ -611,7 +611,7 @@ remove.Position = UDim2.new(0.164351851, 0, 0.5, 0)
 remove.Size = UDim2.new(0, 15, 0, 17)
 remove.ZIndex = 2
 remove.Image = "rbxassetid://3926307971"
-remove.ImageColor3 = Color3.fromRGB(153, 27, 69)
+remove.ImageColor3 = Color3.fromRGB(255, 192, 203)
 remove.ImageRectOffset = Vector2.new(884, 284)
 remove.ImageRectSize = Vector2.new(36, 36)
 
@@ -623,7 +623,7 @@ add.Position = UDim2.new(0.206018522, 0, 0.472972959, 0)
 add.Size = UDim2.new(0, 19, 0, 19)
 add.ZIndex = 2
 add.Image = "rbxassetid://3926307971"
-add.ImageColor3 = Color3.fromRGB(153, 27, 69)
+add.ImageColor3 = Color3.fromRGB(255, 192, 203)
 add.ImageRectOffset = Vector2.new(324, 364)
 add.ImageRectSize = Vector2.new(36, 36)
 
