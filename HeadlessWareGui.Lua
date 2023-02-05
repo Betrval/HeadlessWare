@@ -107,7 +107,7 @@ Banner.Size = UDim2.new(0, 128, 0, 56)
 
 Text.Name = "Text"
 Text.Parent = Banner
-Text.BackgroundColor3 = Color3.fromRGB(36, 5, 1)
+Text.BackgroundColor3 = Color3.fromRGB(255, 192, 203)
 Text.BackgroundTransparency = 1.000
 Text.Position = UDim2.new(0, 39, 0, 0)
 Text.Size = UDim2.new(0, 78, 0, 26)
@@ -172,7 +172,7 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
     
     TabButton.Name = "TabButton"
     TabButton.Parent = Tabl
-    TabButton.BackgroundColor3 = Color3.fromRGB(0, 0, 30)
+    TabButton.BackgroundColor3 = Color3.fromRGB(255, 192, 203)
     TabButton.BackgroundTransparency = 1.000
     TabButton.Position = UDim2.new(0, 0, 0, 12)
     TabButton.Size = UDim2.new(0, 128, 0, 18)
