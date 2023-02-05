@@ -132,7 +132,7 @@ Desc.TextXAlignment = Enum.TextXAlignment.Left
 
 Imagelogo.Name = "Imagelogo"
 Imagelogo.Parent = Banner
-Imagelogo.BackgroundTransparency = 1
+Imagelogo.BackgroundTransparency = 1.000
 Imagelogo.Position = UDim2.new(0, 8, 0, 9)
 Imagelogo.Size = UDim2.new(0, 25, 0, 25)
 Imagelogo.ZIndex = 2
