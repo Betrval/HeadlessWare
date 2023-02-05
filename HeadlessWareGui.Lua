@@ -320,7 +320,7 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
         
         ToggleText.Name = "ToggleText"
         ToggleText.Parent = ToggleFrame
-        ToggleText.BackgroundColor3 = Color3.fromRGB(0, 13, 59)
+        ToggleText.BackgroundColor3 = Color3.fromRGB(255, 192, 203)
         ToggleText.BackgroundTransparency = 1.000
         ToggleText.Position = UDim2.new(1.33333337, 0, 0, 0)
         ToggleText.Size = UDim2.new(0, 344, 0, 26)
