@@ -93,7 +93,7 @@ FrameAll.Parent = Background
 
 TabList.Name = "TabList"
 TabList.Parent = Background
-TabList.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+TabList.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 TabList.Size = UDim2.new(0, 128, 0, 310)
 
 UICorner_2.Parent = TabList
@@ -113,7 +113,7 @@ Text.Position = UDim2.new(0, 39, 0, 0)
 Text.Size = UDim2.new(0, 78, 0, 26)
 Text.Font = Enum.Font.SourceSansBold
 Text.Text = txt
-Text.TextColor3 = Color3.fromRGB(181, 16, 68)
+Text.TextColor3 = Color3.fromRGB(247, 113, 255)
 Text.TextSize = 16.000
 Text.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -132,7 +132,7 @@ Desc.TextXAlignment = Enum.TextXAlignment.Left
 
 Imagelogo.Name = "Imagelogo"
 Imagelogo.Parent = Banner
-Imagelogo.BackgroundTransparency = 1.000
+Imagelogo.BackgroundTransparency = 1
 Imagelogo.Position = UDim2.new(0, 8, 0, 9)
 Imagelogo.Size = UDim2.new(0, 25, 0, 25)
 Imagelogo.ZIndex = 2
