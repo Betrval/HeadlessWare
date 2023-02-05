@@ -247,7 +247,7 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
     Buttontap.Position = UDim2.new(0, 2, 0, 1)
     Buttontap.Size = UDim2.new(0, 246, 0, 22)
     Buttontap.Font = Enum.Font.SourceSansBold
-    Buttontap.TextColor3 = Color3.fromRGB(255, 255, 255)
+    Buttontap.TextColor3 = Color3.fromRGB(255, 192, 203)
     Buttontap.TextSize = 15.000
     Buttontap.Text = txt
     
@@ -276,7 +276,7 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
     LabelText.Position = UDim2.new(0.194444448, 0, 0.15625, 0)
     LabelText.Size = UDim2.new(0, 247, 0, 26)
     LabelText.Font = Enum.Font.SourceSansBold
-    LabelText.TextColor3 = Color3.fromRGB(255, 255, 255)
+    LabelText.TextColor3 = Color3.fromRGB(255, 192, 203)
     LabelText.TextSize = 15.000
     end
     
@@ -386,7 +386,7 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
         DropdownText.Size = UDim2.new(0, 306, 0, 22)
         DropdownText.Font = Enum.Font.SourceSansBold
         DropdownText.Text = txte
-        DropdownText.TextColor3 = Color3.fromRGB(0, 13, 59)
+        DropdownText.TextColor3 = Color3.fromRGB(0, 13, 47)
         DropdownText.TextSize = 16.000
         DropdownText.TextXAlignment = Enum.TextXAlignment.Left
         
