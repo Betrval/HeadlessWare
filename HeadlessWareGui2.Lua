@@ -100,14 +100,14 @@ UICorner_2.Parent = TabList
 
 Banner.Name = "Banner"
 Banner.Parent = TabList
-Banner.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+Banner.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Banner.BackgroundTransparency = 1.000
 Banner.Position = UDim2.new(0, 0, 0, 7)
 Banner.Size = UDim2.new(0, 128, 0, 56)
 
 Text.Name = "Text"
 Text.Parent = Banner
-Text.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Text.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
 Text.BackgroundTransparency = 1.000
 Text.Position = UDim2.new(0, 39, 0, 0)
 Text.Size = UDim2.new(0, 78, 0, 26)
