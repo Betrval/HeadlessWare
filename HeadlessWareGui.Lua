@@ -290,13 +290,13 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
         
         Toggle.Name = "Toggle"
         Toggle.Parent = FrameAlle
-        Toggle.BackgroundColor3 = Color3.fromRGB(247, 113, 255)
+        Toggle.BackgroundColor3 = Color3.fromRGB(0, 13, 31)
         Toggle.BackgroundTransparency = 1.000
         Toggle.Size = UDim2.new(0, 432, 0, 32)
         
         ToggleFrame.Name = "ToggleFrame"
         ToggleFrame.Parent = Toggle
-        ToggleFrame.BackgroundColor3 = Color3.fromRGB(255, 192, 203)
+        ToggleFrame.BackgroundColor3 = Color3.fromRGB(0, 13, 31)
         ToggleFrame.Position = UDim2.new(0, 46, 0, 2)
         ToggleFrame.Size = UDim2.new(0, 27, 0, 26)
         
@@ -310,7 +310,7 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
         check.Size = UDim2.new(0, 25, 0, 24)
         check.ZIndex = 2
         check.Image = "rbxassetid://3926305904"
-        check.ImageColor3 = Color3.fromRGB(247, 113, 255)
+        check.ImageColor3 = Color3.fromRGB(0, 13, 31)
         check.ImageRectOffset = Vector2.new(312, 4)
         check.ImageRectSize = Vector2.new(24, 24)
         check.ImageTransparency = 1
@@ -320,7 +320,7 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
         
         ToggleText.Name = "ToggleText"
         ToggleText.Parent = ToggleFrame
-        ToggleText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        ToggleText.BackgroundColor3 = Color3.fromRGB(0, 13, 31)
         ToggleText.BackgroundTransparency = 1.000
         ToggleText.Position = UDim2.new(1.33333337, 0, 0, 0)
         ToggleText.Size = UDim2.new(0, 344, 0, 26)
