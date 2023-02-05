@@ -113,7 +113,7 @@ Text.Position = UDim2.new(0, 39, 0, 0)
 Text.Size = UDim2.new(0, 78, 0, 26)
 Text.Font = Enum.Font.SourceSansBold
 Text.Text = txt
-Text.TextColor3 = Color3.fromRGB(0, 255, 0)
+Text.TextColor3 = Color3.fromRGB(255, 192, 203)
 Text.TextSize = 16.000
 Text.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -143,7 +143,7 @@ Imagelogo.ImageRectSize = Vector2.new(50, 50)
 Tabl.Name = "Tabl"
 Tabl.Parent = TabList
 Tabl.Active = true
-Tabl.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+Tabl.BackgroundColor3 = Color3.fromRGB(255, 192, 203)
 Tabl.BackgroundTransparency = 1.000
 Tabl.Position = UDim2.new(0, 0, 0, 51)
 Tabl.Size = UDim2.new(0, 128, 0, 259)
@@ -247,7 +247,7 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
     Buttontap.Position = UDim2.new(0, 2, 0, 1)
     Buttontap.Size = UDim2.new(0, 246, 0, 22)
     Buttontap.Font = Enum.Font.SourceSansBold
-    Buttontap.TextColor3 = Color3.fromRGB(255, 255, 255)
+    Buttontap.TextColor3 = Color3.fromRGB(255, 192, 203)
     Buttontap.TextSize = 15.000
     Buttontap.Text = txt
     
@@ -276,7 +276,7 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
     LabelText.Position = UDim2.new(0.194444448, 0, 0.15625, 0)
     LabelText.Size = UDim2.new(0, 247, 0, 26)
     LabelText.Font = Enum.Font.SourceSansBold
-    LabelText.TextColor3 = Color3.fromRGB(255, 255, 255)
+    LabelText.TextColor3 = Color3.fromRGB(255, 192, 203)
     LabelText.TextSize = 15.000
     end
     
@@ -326,7 +326,7 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
         ToggleText.Size = UDim2.new(0, 344, 0, 26)
         ToggleText.Font = Enum.Font.SourceSansBold
         ToggleText.Text = txt
-        ToggleText.TextColor3 = Color3.fromRGB(255, 255, 255)
+        ToggleText.TextColor3 = Color3.fromRGB(255, 192, 203)
         ToggleText.TextSize = 16.000
         ToggleText.TextXAlignment = Enum.TextXAlignment.Left
         check.MouseButton1Click:Connect(function()
@@ -380,13 +380,13 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
         
         DropdownText.Name = "DropdownText"
         DropdownText.Parent = DropdownFrame
-        DropdownText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        DropdownText.BackgroundColor3 = Color3.fromRGB(255, 192, 203)
         DropdownText.BackgroundTransparency = 1.000
         DropdownText.Position = UDim2.new(0.0664819926, 0, 0, 0)
         DropdownText.Size = UDim2.new(0, 306, 0, 22)
         DropdownText.Font = Enum.Font.SourceSansBold
         DropdownText.Text = txte
-        DropdownText.TextColor3 = Color3.fromRGB(0, 13, 59)
+        DropdownText.TextColor3 = Color3.fromRGB(255, 192, 203)
         DropdownText.TextSize = 16.000
         DropdownText.TextXAlignment = Enum.TextXAlignment.Left
         
