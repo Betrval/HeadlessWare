@@ -65,7 +65,7 @@ UICopied.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Background.Name = "Background"
 Background.Parent = UICopied
-Background.BackgroundColor3 = Color3.fromRGB(255, 192, 203)
+Background.BackgroundColor3 = Color3.fromRGB(0, 0, 25)
 Background.Position = UDim2.new(0, 676, 0, 266)
 Background.Size = UDim2.new(0, 567, 0, 310)
 local toggledui = false
@@ -271,7 +271,7 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
     
     LabelText.Name = "LabelText"
     LabelText.Parent = Label
-    LabelText.BackgroundColor3 = Color3.fromRGB(0, 13, 47)
+    LabelText.BackgroundColor3 = Color3.fromRGB(255, 192, 203)
     LabelText.BackgroundTransparency = 1.000
     LabelText.Position = UDim2.new(0.194444448, 0, 0.15625, 0)
     LabelText.Size = UDim2.new(0, 247, 0, 26)
@@ -386,7 +386,7 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
         DropdownText.Size = UDim2.new(0, 306, 0, 22)
         DropdownText.Font = Enum.Font.SourceSansBold
         DropdownText.Text = txte
-        DropdownText.TextColor3 = Color3.fromRGB(0, 13, 59)
+        DropdownText.TextColor3 = Color3.fromRGB(255, 192, 203)
         DropdownText.TextSize = 16.000
         DropdownText.TextXAlignment = Enum.TextXAlignment.Left
         
