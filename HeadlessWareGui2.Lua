@@ -107,7 +107,7 @@ Banner.Size = UDim2.new(0, 128, 0, 56)
 
 Text.Name = "Text"
 Text.Parent = Banner
-Text.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+Text.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Text.BackgroundTransparency = 1.000
 Text.Position = UDim2.new(0, 39, 0, 0)
 Text.Size = UDim2.new(0, 78, 0, 26)
@@ -143,7 +143,7 @@ Imagelogo.ImageRectSize = Vector2.new(50, 50)
 Tabl.Name = "Tabl"
 Tabl.Parent = TabList
 Tabl.Active = true
-Tabl.BackgroundColor3 = Color3.fromRGB(0, 13, 47)
+Tabl.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
 Tabl.BackgroundTransparency = 1.000
 Tabl.Position = UDim2.new(0, 0, 0, 51)
 Tabl.Size = UDim2.new(0, 128, 0, 259)
