@@ -107,7 +107,7 @@ Banner.Size = UDim2.new(0, 128, 0, 56)
 
 Text.Name = "Text"
 Text.Parent = Banner
-Text.BackgroundColor3 = Color3.fromRGB(255, 192, 203)
+Text.BackgroundColor3 = Color3.fromRGB(0, 13, 47)
 Text.BackgroundTransparency = 1.000
 Text.Position = UDim2.new(0, 39, 0, 0)
 Text.Size = UDim2.new(0, 78, 0, 26)
@@ -243,7 +243,7 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
     
     Buttontap.Name = "Buttontap"
     Buttontap.Parent = ButtonFrame
-    Buttontap.BackgroundColor3 = Color3.fromRGB(255, 192, 203)
+    Buttontap.BackgroundColor3 = Color3.fromRGB(0, 13, 47)
     Buttontap.Position = UDim2.new(0, 2, 0, 1)
     Buttontap.Size = UDim2.new(0, 246, 0, 22)
     Buttontap.Font = Enum.Font.SourceSansBold
