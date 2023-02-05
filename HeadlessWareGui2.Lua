@@ -235,7 +235,7 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
     
     ButtonFrame.Name = "ButtonFrame"
     ButtonFrame.Parent = Button
-    ButtonFrame.BackgroundColor3 = Color3.fromRGB(153, 27, 69)
+    ButtonFrame.BackgroundColor3 = Color3.fromRGB(0, 13, 29)
     ButtonFrame.Position = UDim2.new(0, 81, 0, 6)
     ButtonFrame.Size = UDim2.new(0, 251, 0, 25)
     
@@ -641,7 +641,7 @@ UICorner_3.Parent = sliderz
 
 SliderInner.Name = "SliderInner"
 SliderInner.Parent = sliderz
-SliderInner.BackgroundColor3 = Color3.fromRGB(153, 27, 69)
+SliderInner.BackgroundColor3 = Color3.fromRGB(255, 192, 203)
 SliderInner.Position = UDim2.new(0, 0, -0.400000006, 0)
 SliderInner.Size = UDim2.new(0, 296, 0, 6)
 
