@@ -199,7 +199,7 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
     
     UIListLayout_2.Parent = FrameAlle
     UIListLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
-    UIListLayout_2.Padding = UDim.new(0, 3)
+    UIListLayout_2.Padding = UDim.new(0, 0, 30)
     
     UIPadding_3.Parent = FrameAlle
     UIPadding_3.PaddingTop = UDim.new(0, 10)
