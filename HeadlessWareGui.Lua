@@ -272,12 +272,12 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
     
     LabelText.Name = "LabelText"
     LabelText.Parent = Label
-    LabelText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    LabelText.BackgroundColor3 = Color3.fromRGB(0, 13, 29)
     LabelText.BackgroundTransparency = 1.000
     LabelText.Position = UDim2.new(0.194444448, 0, 0.15625, 0)
     LabelText.Size = UDim2.new(0, 247, 0, 26)
     LabelText.Font = Enum.Font.SourceSansBold
-    LabelText.TextColor3 = Color3.fromRGB(153, 27, 69)
+    LabelText.TextColor3 = Color3.fromRGB(255, 192, 203)
     LabelText.TextSize = 15.000
     end
     
@@ -291,13 +291,13 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
         
         Toggle.Name = "Toggle"
         Toggle.Parent = FrameAlle
-        Toggle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Toggle.BackgroundColor3 = Color3.fromRGB(255, 192, 203)
         Toggle.BackgroundTransparency = 1.000
         Toggle.Size = UDim2.new(0, 432, 0, 32)
         
         ToggleFrame.Name = "ToggleFrame"
         ToggleFrame.Parent = Toggle
-        ToggleFrame.BackgroundColor3 = Color3.fromRGB(153, 27, 69)
+        ToggleFrame.BackgroundColor3 = Color3.fromRGB(0, 13, 29)
         ToggleFrame.Position = UDim2.new(0, 46, 0, 2)
         ToggleFrame.Size = UDim2.new(0, 27, 0, 26)
         
@@ -321,13 +321,13 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
         
         ToggleText.Name = "ToggleText"
         ToggleText.Parent = ToggleFrame
-        ToggleText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        ToggleText.BackgroundColor3 = Color3.fromRGB(0, 13, 29)
         ToggleText.BackgroundTransparency = 1.000
         ToggleText.Position = UDim2.new(1.33333337, 0, 0, 0)
         ToggleText.Size = UDim2.new(0, 344, 0, 26)
         ToggleText.Font = Enum.Font.SourceSansBold
         ToggleText.Text = txt
-        ToggleText.TextColor3 = Color3.fromRGB(153, 27, 69)
+        ToggleText.TextColor3 = Color3.fromRGB(255, 192, 203)
         ToggleText.TextSize = 16.000
         ToggleText.TextXAlignment = Enum.TextXAlignment.Left
         check.MouseButton1Click:Connect(function()
@@ -365,32 +365,33 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
         local DropdownText = Instance.new("TextLabel")
         local click = Instance.new("ImageButton")
         
-        Dropdown.Name = "Dropdown"
-        Dropdown.Parent = FrameAlle
-        Dropdown.BackgroundColor3 = Color3.fromRGB(0, 13, 47)
-        Dropdown.BackgroundTransparency = 1.000
-        Dropdown.Size = UDim2.new(0, 432, 0, 32)
-        Dropdown.AutomaticSize = Enum.AutomaticSize.Y
-        DropdownFrame.Name = "DropdownFrame"
-        DropdownFrame.Parent = Dropdown
-        DropdownFrame.BackgroundColor3 = Color3.fromRGB(0, 13, 47)
-        DropdownFrame.Position = UDim2.new(0.0717592612, 0, 0.15625, 0)
-        DropdownFrame.Size = UDim2.new(0, 361, 0, 23)
-        
-        UICorner.Parent = DropdownFrame
-        
-        DropdownText.Name = "DropdownText"
-        DropdownText.Parent = DropdownFrame
-        DropdownText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-        DropdownText.BackgroundTransparency = 1.000
-        DropdownText.Position = UDim2.new(0.0664819926, 0, 0, 0)
-        DropdownText.Size = UDim2.new(0, 306, 0, 22)
-        DropdownText.Font = Enum.Font.SourceSansBold
-        DropdownText.Text = txte
-        DropdownText.TextColor3 = Color3.fromRGB(255, 255, 255)
-        DropdownText.TextSize = 16.000
-        DropdownText.TextXAlignment = Enum.TextXAlignment.Left
-        
+Dropdown.Name = "Dropdown"
+Dropdown.Parent = FrameAlle
+Dropdown.BackgroundColor3 = Color3.fromRGB(0, 13, 29)
+Dropdown.BackgroundTransparency = 1.000
+Dropdown.Size = UDim2.new(0, 432, 0, 32)
+Dropdown.AutomaticSize = Enum.AutomaticSize.Y
+
+DropdownFrame.Name = "DropdownFrame"
+DropdownFrame.Parent = Dropdown
+DropdownFrame.BackgroundColor3 = Color3.fromRGB(0, 13, 29)
+DropdownFrame.Position = UDim2.new(0.0717592612, 0, 0.15625, 0)
+DropdownFrame.Size = UDim2.new(0, 361, 0, 23)
+
+UICorner.Parent = DropdownFrame
+
+DropdownText.Name = "DropdownText"
+DropdownText.Parent = DropdownFrame
+DropdownText.BackgroundColor3 = Color3.fromRGB(0, 13, 29)
+DropdownText.BackgroundTransparency = 1.000
+DropdownText.Position = UDim2.new(0.0664819926, 0, 0, 0)
+DropdownText.Size = UDim2.new(0, 306, 0, 22)
+DropdownText.Font = Enum.Font.SourceSansBold
+DropdownText.Text = txte
+DropdownText.TextColor3 = Color3.fromRGB(255, 255, 255)
+DropdownText.TextSize = 16.000
+DropdownText.TextXAlignment = Enum.TextXAlignment.Left
+			
         click.Name = "click"
         click.Parent = DropdownFrame
         click.BackgroundTransparency = 1.000
@@ -556,19 +557,19 @@ Slider.Size = UDim2.new(0, 432, 0, 37)
 
 TextSlider.Name = "TextSlider"
 TextSlider.Parent = Slider
-TextSlider.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextSlider.BackgroundColor3 = Color3.fromRGB(0, 13, 29)
 TextSlider.BackgroundTransparency = 1.000
 TextSlider.Position = UDim2.new(0.0578703694, 0, 0.0625, 0)
 TextSlider.Size = UDim2.new(0, 223, 0, 14)
 TextSlider.Font = Enum.Font.SourceSansBold
 TextSlider.Text = txt
-TextSlider.TextColor3 = Color3.fromRGB(153, 27, 69)
+TextSlider.TextColor3 = Color3.fromRGB(255, 192, 203)
 TextSlider.TextSize = 14.000
 TextSlider.TextXAlignment = Enum.TextXAlignment.Left
 
 BoxFrmae.Name = "BoxFrmae"
 BoxFrmae.Parent = Slider
-BoxFrmae.BackgroundColor3 = Color3.fromRGB(153, 27, 69)
+BoxFrmae.BackgroundColor3 = Color3.fromRGB(0, 13, 29)
 BoxFrmae.Position = UDim2.new(0, 28, 0, 22)
 BoxFrmae.Size = UDim2.new(0, 22, 0, 12)
 
@@ -577,12 +578,12 @@ UICorner.Parent = BoxFrmae
 
 SliderBox.Name = "SliderBox"
 SliderBox.Parent = BoxFrmae
-SliderBox.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+SliderBox.BackgroundColor3 = Color3.fromRGB(0, 13, 29)
 SliderBox.Position = UDim2.new(0, 1, 0, 1)
 SliderBox.Size = UDim2.new(0, 19, 0, 10)
 SliderBox.Font = Enum.Font.SourceSansBold
 SliderBox.Text = ""
-SliderBox.TextColor3 = Color3.fromRGB(116, 20, 51)
+SliderBox.TextColor3 = Color3.fromRGB(255, 192, 203)
 SliderBox.TextScaled = true
 SliderBox.TextSize = 14.000
 SliderBox.TextWrapped = true
