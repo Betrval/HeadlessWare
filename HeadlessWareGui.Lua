@@ -93,7 +93,7 @@ FrameAll.Parent = Background
 
 TabList.Name = "TabList"
 TabList.Parent = Background
-TabList.BackgroundColor3 = Color3.fromRGB(0, 13, 46)
+TabList.BackgroundColor3 = Color3.fromRGB(0, 13, 29)
 TabList.Size = UDim2.new(0, 128, 0, 310)
 
 UICorner_2.Parent = TabList
@@ -143,7 +143,7 @@ Imagelogo.ImageRectSize = Vector2.new(50, 50)
 Tabl.Name = "Tabl"
 Tabl.Parent = TabList
 Tabl.Active = true
-Tabl.BackgroundColor3 = Color3.fromRGB(0, 13, 59)
+Tabl.BackgroundColor3 = Color3.fromRGB(0, 13, 29)
 Tabl.BackgroundTransparency = 1.000
 Tabl.Position = UDim2.new(0, 0, 0, 51)
 Tabl.Size = UDim2.new(0, 128, 0, 259)
