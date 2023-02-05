@@ -271,7 +271,7 @@ UIPadding_2.PaddingTop = UDim.new(0, 7)
     
     LabelText.Name = "LabelText"
     LabelText.Parent = Label
-    LabelText.BackgroundColor3 = Color3.fromRGB(255, 192, 203)
+    LabelText.BackgroundColor3 = Color3.fromRGB(0, 13, 47)
     LabelText.BackgroundTransparency = 1.000
     LabelText.Position = UDim2.new(0.194444448, 0, 0.15625, 0)
     LabelText.Size = UDim2.new(0, 247, 0, 26)
