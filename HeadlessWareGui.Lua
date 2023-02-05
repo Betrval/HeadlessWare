@@ -113,7 +113,7 @@ Text.Position = UDim2.new(0, 39, 0, 0)
 Text.Size = UDim2.new(0, 78, 0, 26)
 Text.Font = Enum.Font.SourceSansBold
 Text.Text = txt
-Text.TextColor3 = Color3.fromRGB(255, 255, 255)
+Text.TextColor3 = Color3.fromRGB(255, 192, 203)
 Text.TextSize = 16.000
 Text.TextXAlignment = Enum.TextXAlignment.Left
 
